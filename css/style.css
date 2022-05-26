@@ -1,0 +1,203 @@
+@media only screen and (max-width: 767px) {
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap');
+    * {
+        box-sizing: border-box;
+    }
+    ul li {
+        list-style-type: none;
+        text-decoration: none;
+    }
+    li a {
+        color: #90a5b6;
+        font-size: 12px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .home-left {
+        margin-left: -20px;
+    }
+    ul {
+        background-color: #556270;
+        padding: 20px;
+    }
+    body h1 {
+        font-weight: bolder;
+        font-size: 40px;
+        margin: 50px 0px 25px 0px;
+        font-family: 'Patrick Hand', cursive;
+    }
+    p {
+        font-size: 17px;
+    }
+    body h3 {
+        font-weight: bolder;
+        font-size: 37px;
+    }
+    body img {
+        max-width: 100%;
+        height: auto;
+    }
+    article p {
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .banner-p {
+        margin-top: -40px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+    ul li {
+        list-style-type: none;
+        text-decoration: none;
+    }
+    li a {
+        color: #90a5b6;
+        font-size: 12px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    ul {
+        background-color: #556270;
+        padding: 20px;
+    }
+    .h {
+        margin-left: -40px;
+    }
+    .r {
+        left: 250px;
+        margin-left: -50px;
+    }
+    .home-left {
+        margin-left: -10px;
+    }
+    article p {
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 15px;
+        font-family: 'Patrick Hand', cursive;
+    }
+    hr {
+        display: none;
+    }
+    body img {
+        max-width: 100%;
+        height: auto;
+    }
+    .img {
+        max-width: 48.5%;
+    }
+    footer {
+        margin-top: 60px;
+        border: 1px solid gray;
+        padding: 20px;
+    }
+    body h1 {
+        position: relative;
+        left: 10px;
+        font-weight: bolder;
+        font-size: 40px;
+        margin: 50px 0px 25px 0px;
+        font-family: 'Patrick Hand', cursive;
+    }
+    p {
+        font-size: 17px;
+    }
+    body h3 {}
+    .banner-p {
+        margin-top: -40px;
+    }
+    .hr {
+        border-bottom: 1px solid gray;
+        margin-bottom: 15px;
+    }
+    .center {
+        text-align: center;
+    }
+    .relative {
+        right: 260px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .h {
+        margin-left: -60px;
+    }
+    .r {
+        left: 400px;
+        margin-left: -80px;
+    }
+    #banner {
+        height: 500px;
+        max-width: 100%;
+        background-image: url("../img/tam-dao-vinh-phuc-co-gi-hay-h4.jpg");
+        background-size: cover;
+        margin-top: -50px;
+    }
+    body h1 {
+        position: relative;
+        color: red;
+        margin-left: 100px;
+        top: 50px;
+        font-family: serif;
+        font-size: 80px;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .banner-p {
+        color: blue;
+        position: relative;
+        font-size: 25px;
+        margin-left: 120px;
+        top: 30px;
+        letter-spacing: 1px;
+    }
+    article p {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .p {
+        margin-top: 40px;
+    }
+    .img {
+        max-width: 100%;
+    }
+    footer {
+        background-color: blue;
+    }
+    footer h3 {
+        color: white;
+    }
+    footer p {
+        color: white;
+    }
+    body section {
+        background-color: beige;
+        margin-top: 35px;
+    }
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    ul {
+        background-color: white;
+    }
+    li a {
+        font-size: 15px;
+    }
+    .center {
+        text-align: center;
+    }
+    .relative {
+        right: 0px;
+    }
+}
